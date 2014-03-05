@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: com.smbtec.eclipse.cdo.addons.info;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: com.smbtec.eclipse.cdo.addons.info.Activator
+Bundle-Vendor: %providerName
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.neo4j.community;bundle-version="2.0.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Import-Package: com.buschmais.cdo.api;version="0.2.0",
+ com.buschmais.cdo.api.annotation;version="0.2.0",
+ com.buschmais.cdo.neo4j.api;version="0.2.0"
